@@ -1,0 +1,12 @@
+image: thersan/ruby:2.3.6
+manifests:
+  - 
+    image: amd64/ruby:2.3.6
+    platform:
+      architecture: amd64
+      os: linux
+  - 
+    image: arm32v7/ruby:2.3.6
+    platform:
+      architecture: arm
+      os: linux
